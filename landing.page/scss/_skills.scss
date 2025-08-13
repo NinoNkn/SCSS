@@ -1,13 +1,17 @@
 #skills {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
     padding: 20px;
+    flex-wrap: wrap; // Para que en móvil se adapte
 
     h3 {
         color: $color-principal;
+        margin-bottom: 10px;
     }
 
     ul {
         list-style: none;
+        padding: 0;
     }
 }
