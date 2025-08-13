@@ -1,0 +1,13 @@
+#skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+    h3 {
+        color: $color-principal;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
